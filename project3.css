@@ -1,0 +1,79 @@
+/* Page background */
+body {
+    background-color: #8fb5c1;
+    font-family: Georgia, serif;
+    margin: 20px;
+}
+
+/* Header sizes and alignment */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* Paragraph spacing */
+p {
+    line-height: 1.5;
+}
+
+/* 2nd paragraph styling */
+#paragraph2 {
+    background-color: white;
+    border: 4px solid green;
+    padding: 15px;
+    margin: 15px 0 20px 40px;
+    width: 85%;
+}
+
+/* Blue paragraphs (4th & 5th) */
+.blue {
+    background-color: #0b1c8c;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* List items use two digits */
+ol {
+    list-style-type: decimal-leading-zero;
+    margin-left: 20px;
+}
+
+/* Default link color (list links) */
+a {
+    color: blue;
+}
+
+/* W3Schools link different color */
+section p a {
+    color: red;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin-top: 10px;
+}
+
+/* Borders for all cells */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Table header background */
+th {
+    background-color: #cccccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Table cell background */
+td {
+    background-color: #e6e6e6;
+    padding: 8px;
+}
