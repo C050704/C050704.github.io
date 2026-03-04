@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #9fc3cf;
+}
+
+#container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 25px;
+    border: 8px solid goldenrod;
+    background: white;
+}
+
+select {
+    width: 200px;
+    margin: 5px;
+}
+
+.team-member {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
